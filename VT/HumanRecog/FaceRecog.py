@@ -12,3 +12,4 @@ if __name__ == "__main__":
 
     #Test code ggg
     # test 2rr ddgg RRRRRR
+    # test 2rr ddgg RRRRRR KKK QQQ RR
