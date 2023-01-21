@@ -51,7 +51,7 @@ while capture.isOpened():
     # Rectangles are drawn around the cars using cv2.rectangle built-in function
 	# cv2.rectangle(frame, (x1,y1), (x2,y2), color, thickness)
     for (x,y,w,h) in pedestrian_detected:
-        cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 0, 255), 3)
+        cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 0, 255), 1)
         
         # Display pedestrians detected using imshow built-in function
         cv2.imshow('Pedestrian Detection', frame)
