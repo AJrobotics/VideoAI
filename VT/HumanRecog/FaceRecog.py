@@ -14,5 +14,5 @@ if __name__ == "__main__":
     # test 2rr ddgg RRRRRR
 # Close the capturing device
 
-# Close all windows
+# Close all windows yyy
 cv2.destroyAllWindows()
